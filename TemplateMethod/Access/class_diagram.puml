@@ -1,0 +1,26 @@
+@startuml Access
+
+abstract class AbstractAccess {
+    {abstract}fetchFilePath()
+    {abstract}fetchData()
+    {abstract}showDetail()
+    access()
+}
+
+class TextAccess {
+    fetchFilePath()
+    fetchData()
+    showDetail()
+}
+
+class CsvAccess {
+    fetchFilePath()
+    fetchData()
+    showDetail()
+    calculateBirthdayCount()
+}
+
+AbstractAccess <|-down-TextAccess
+AbstractAccess <|-down-CsvAccess
+
+@enduml
