@@ -1,9 +1,11 @@
 # design-pattern
+
 ## Objective
 - Java言語で学ぶデザインパターン入門のデザインパターン23個をPythonで書き換えることで理解を深めることを目的とする。
 - UMLについても書くことによって、UMLの勉強も行う。
 - 余裕があれば、自分でモデリングをして、簡単なプログラムを作ってみる。
 - 書籍：https://www.amazon.co.jp/増補改訂版Java言語で学ぶデザインパターン入門-結城-浩/dp/4797327030
+
 ## Progress
 | No. | Title | UML (Sample) | Code (Sample) | UML (Original) | Code (Original) |
 | :---: | --- | :---: | :---: | :---: | :---: |
