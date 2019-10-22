@@ -1,0 +1,25 @@
+@startuml Banner1
+
+class Main {
+}
+
+interface Print {
+    {abstract} printWeak()
+    {abstract} printStrong()
+}
+
+class PrintBanner {
+    printWeak()
+    printStrong()
+}
+
+class Banner {
+    showWithParen()
+    showWithAster()
+}
+
+Main --> Print : Uses >
+PrintBanner .left.|> Print
+PrintBanner -right-|>Banner
+
+@enduml
