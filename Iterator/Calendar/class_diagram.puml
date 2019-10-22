@@ -1,0 +1,44 @@
+@startuml Calendar
+
+interface Aggregate {
+    {abstract} iterator()
+}
+
+interface Iterator {
+    {abstract} hasNext()
+    {abstract} next()
+}
+
+class Calendar {
+    plans
+    last
+    getPlanAt()
+    appendPlan()
+    getLength()
+    validatePlan()
+    iterator()
+}
+
+class CalendarIterator {
+    Calendar
+    index
+    hasNext()
+    next()
+}
+
+class Plan {
+    name
+    startDate
+    endDate
+    getName()
+    getStartDate()
+    getEndDate()
+}
+
+Aggregate -> Iterator : Creates >
+Calendar .up.|> Aggregate
+CalendarIterator .up.|> Iterator
+CalendarIterator o-left-> Calendar
+Calendar o--> Plan
+
+@enduml
