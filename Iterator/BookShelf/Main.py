@@ -1,8 +1,3 @@
-# -*- coding: utf-8 -*-
-
-# referrence
-# https://ksk77.blogspot.com/2010/11/1-iterator.html
-
 from BookShelf import BookShelf
 from Book import Book
 
@@ -21,3 +16,7 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
+# referrence
+# https://ksk77.blogspot.com/2010/11/1-iterator.html

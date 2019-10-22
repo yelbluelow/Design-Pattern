@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-
-
 from abc import ABCMeta, abstractmethod
 
 
@@ -15,7 +12,7 @@ class AbstractAccess(metaclass=ABCMeta):
         pass
 
     @abstractmethod
-    def showDetail(self, record):
+    def showDetail(self):
         pass
 
     def access(self):

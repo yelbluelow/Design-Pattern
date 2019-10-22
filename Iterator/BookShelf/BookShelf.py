@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-
-
 from __Aggregate import __Aggregate
 from BookShelfIterator import BookShelfIterator
 

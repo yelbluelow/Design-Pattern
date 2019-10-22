@@ -1,7 +1,12 @@
-class __Aggregate:
+from abc import ABCMeta, abstractmethod
 
+
+class __Aggregate(metaclass=ABCMeta):
+
+    @abstractmethod
     def __init__(self):
-        raise Exception('abstract class')
+        pass
 
+    @abstractmethod
     def iterator(self):
-        raise Exception('iterator() must be implemented')
+        pass

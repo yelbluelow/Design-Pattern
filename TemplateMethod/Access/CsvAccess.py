@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-
-
 import glob
 import pandas as pd
 from AbstractAccess import AbstractAccess

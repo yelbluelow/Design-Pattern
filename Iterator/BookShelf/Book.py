@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-
-
 class Book:
 
     def __init__(self, name):

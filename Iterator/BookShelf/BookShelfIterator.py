@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-
-
 from __Iterator import __Iterator
 
 
