@@ -13,7 +13,7 @@
 | 2 | Adapter |  |  |  |  |
 | 3 | Template Method | 〇 | 〇 | 〇 | 〇 |
 | 4 | Factory Method |  |  |  |  |
-| 5 | Singleton |  |  |  |  |
+| 5 | Singleton | 〇 | 〇 |  |  |
 | 6 | Prototype |  |  |  |  |
 | 7 | Builder |  |  |  |  |
 | 8 | Abstract Factory |  |  |  |  |
