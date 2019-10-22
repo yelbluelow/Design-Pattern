@@ -9,7 +9,7 @@
 ## Progress
 | No. | Title | UML (Sample) | Code (Sample) | UML (Original) | Code (Original) |
 | :---: | --- | :---: | :---: | :---: | :---: |
-| 1 | Iterator | 〇 | 〇 |  |  |
+| 1 | Iterator | 〇 | 〇 | 〇 | 〇 |
 | 2 | Adapter |  |  |  |  |
 | 3 | Template Method | 〇 | 〇 | 〇 | 〇 |
 | 4 | Factory Method |  |  |  |  |
